@@ -1,0 +1,2 @@
+# scaffold-archetype-mvc
+MVC
