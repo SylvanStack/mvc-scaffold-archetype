@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: scaffold-user
+  datasource:
+    project:
+      url: jdbc:mysql://127.0.0.1:3306/scaffold_project?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+      username: root
+      password: mysql123456
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    user:
+      url: jdbc:mysql://127.0.0.1:3306/scaffold_user?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+      username: root
+      password: mysql123456
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
+    show-sql: true
